@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alen Aju Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my-avatar.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Alen Aju" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Alen Aju">Alen Aju</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:alenaju1304@gmail.com" class="contact-link">alenaju1304@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+971502682198" class="contact-link">+971 50 2682198</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Dubai, United Arab Emirates</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://x.com/aju_alen_" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://medium.com/@alenaju1304" class="social-link">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/aju-alen" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://linkedin.com/in/aju-alen/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a software developer who loves building dynamic web and mobile applications. With a love for problem-solving, I enjoy the challenge of turning complex ideas into functional, user-friendly solutions. 
+          </p>
+
+          <p>
+            I’m always learning and evolving my skills as I take on new projects, striving to deliver high-quality, innovative applications. Whether it’s creating a seamless user experience or architecting the backend logic, I love to bring curiosity in my work.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Designing and development of websites and web applications using required technologies.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Github</h3>
+
+          <!-- <img src="https://github-readme-stats.vercel.app/api?username=aju-alen&show_icons=false&theme=radical&hide_border=true" alt="GitHub Stats" /> -->
+          <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aju-alen&theme=github_dark" alt="GitHub Stats" />          
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <span>October 2023 - Present</span>
+              <h4 class="h4 timeline-item-title">Right Intelelctual - Software Engineer<p class="p key-skill">Key Skills: Typescript, React, NodeJs, PostgreSQL, AWS</p></h4>
+              <p class="timeline-text">
+                • Developed an LMS mobile application using React Native (Expo) with a Node.js backend and PostgreSQL
+                database. Leveraged Zustand for efficient client-side state management and React Query for server-side state management, achieving a 30% performance improvement and a 47% increase in latency through caching and optimistic
+                updates.                
+              </p>
+            </br>
+              <p class="timeline-text">
+                • Integrated Single Sign-On (SSO) and token-based authentication, enhancing security and implemented one-toone and many-to-one bidirectional communication using Socket.IO, improving real-time chat functionality
+              </p>
+            </br>
+              <p class="timeline-text">
+                • Integrated Stripe as(subscription-based and one-time payments) and optimized form validation with Zod, reducing
+                form abandonment by 40% and developed custom UI components using StyleSheet, leading to a 33% reduction in
+                resource load times.                                
+              </p>
+            </br>
+              <p class="timeline-text">
+                • Developed a survey web application with stateless authentication, allowing users to create configurable surveys , and
+                integrated an analytics dashboard for real-time performance tracking.                          
+              </p>
+            </br>
+              <p class="timeline-text">
+                • Integrated AWS Rekognition for image verification during uploads and implemented a logic to convert data into excel
+                sheet.                                
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <span>Apr 2022 — Oct 2023</span>
+              <h4 class="h4 timeline-item-title">Freelance Contract - Full Stack Developer</h4>
+              <p class="timeline-text">
+                • Designed and developed a Journal publishing portal Web-Application using React along with Node.js for the backend
+                and MySQL as the database, Zustand as the client state management and React Query for server state management
+                which helped achieve a 52% increase in concurrent users and 27% reduced in data fetching from cache and optimistic
+                updates.                
+              </p>
+            </br>
+              <p class="timeline-text">
+                • Implemented features such as OAuth for authentication, stripe for one time payment checkout and subscription based
+                model.
+              </p>
+            </br>
+              <p class="timeline-text">
+                • Deployed the application to a VPS, set up SSL certificates and implemented a load balancer using Nginx proving an
+                efficient solution for the spike in users.                                
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <span>Sep 2022 — Mar 2023</span>
+              <h4 class="h4 timeline-item-title">MetaMorphoSys Technologies - Frontend Intern <p class="p key-skill">Key Skills: Typescript, Angular, ReactJS, HTML, CSS, Jasmine & Karma, Azure</p></h4>
+              <p class="timeline-text">
+                • Developed UI for SPA in Angular using Reactive Forms and populated the component using rule engine API which
+                helped fasten product creation by 47%.
+              </p>
+            </br>
+              <p class="timeline-text">
+                • Reduced API calls by 30% with SPA Liquid Cache, configured to cache slow or predictable API calls.
+              </p>
+            </br>
+              <p class="timeline-text">
+                • Documented and completed UI tests for an entire application containing over 35 components using testing tools like
+                Jasmine and Karma using White box testing approach resulting in accurate detection of UI errors.                
+              </p>
+            </br>
+              <p class="timeline-text">
+                • Enhanced SPA form’s UX by providing intra component’s form data validation with RxJS reducing form abandonment
+                by 27%.                
+              </p>
+            </li>
+
+          
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item"></li>
+
+              <span>Sep 2018 — Mar 2022</span>
+              <h4 class="h4 timeline-item-title">Rajagiri School of Engineering and Technology, India <p class="p key-skill">Bachelor Of Technology. Information Technology</p></h4>
+              <p class="timeline-text">
+               
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <span>Sep 2014 — Mar 2017</span>
+              <h4 class="h4 timeline-item-title">GEMS - Our Own English High School, U.A.E <p class="p key-skill">High School</p></h4>
+              <p class="timeline-text">
+               
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          
+
+          <div class="filter-select-box">
+
+            <p class="filter-select" data-select>
+
+              <!-- <div class="select-value" data-selecct-value>Select category</div> -->
+
+              <!-- <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div> -->
+
+            </p>
+
+            
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/aju-alen/AnalyticaForm">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aju-alen&repo=AnalyticaForm&width=500&show_owner=true&theme=gruvbox" alt="DubaiAnalytica" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Survey Software</h3>
+
+                <p class="project-category">Web App</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/aju-alen/StudentMobileRN">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aju-alen&repo=StudentMobileRN&width=500&show_owner=true&theme=gruvbox" alt="StudentMobileRN" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LMS - Platform</h3>
+
+                <p class="project-category">Mobile App</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/aju-alen/React_Journal">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aju-alen&repo=React_Journal&width=500&show_owner=true&theme=gruvbox" alt="StudentMobileRN" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Journal Application</h3>
+
+                <p class="project-category">Web App</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/aju-alen/safari-books">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aju-alen&repo=safari-books&width=500&show_owner=true&theme=gruvbox" alt="StudentMobileRN" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Audiobook Marketplace</h3>
+
+                <p class="project-category">Mobile App</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/aju-alen/JobFinder_ReactNative">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aju-alen&repo=JobFinder_ReactNative&width=500&show_owner=true&theme=gruvbox" alt="StudentMobileRN" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Job Finder</h3>
+
+                <p class="project-category">Mobile App</p>
+
+              </a>
+            </li>
+
+           
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/aju-alen/liverprod">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=aju-alen&repo=liverprod&width=500&show_owner=true&theme=gruvbox" alt="StudentMobileRN" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">gethelp</h3>
+
+                <p class="project-category">Web App</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <!-- <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57854.3380224183!2d55.22992494601219!3d25.276987203604473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43484d1a5b35%3A0xdfcdb7bf5615ed7f!2sDubai!5e0!3m2!1sen!2sbd!4v1695127624701!5m2!1sen!2sbd"
+            width="400" height="300" loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form  action="https://getform.io/f/blljdolb" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <input type="hidden" name="_gotcha" style="display:none !important">
+
+            <textarea type="text" name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
