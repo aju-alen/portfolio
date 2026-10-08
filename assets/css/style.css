@@ -4,6 +4,7 @@
   --text1: #eee;
   --text2: #aaa;
   --link: #eee;
+  --wash: #ffffff1a;
   --page-padding: clamp(12px, 5dvw, 48px);
   --content-width: 512px;
   --font-size: 15px;
@@ -88,23 +89,28 @@ a:focus-visible {
   color: var(--text2);
 }
 
-.detail h1 a {
-  color: var(--text1);
-  border-bottom: none;
-}
-
-.detail h1 a:hover,
-.detail h1 a:active {
-  color: var(--text2);
-}
-
-.page-label {
+.back {
   margin-bottom: 28px;
+}
+
+.back a {
+  border-bottom: 1px solid var(--text1);
+  color: var(--link);
+}
+
+.back a:hover,
+.back a:active {
   color: var(--text2);
 }
 
 .job {
-  margin-bottom: 36px;
+  margin-bottom: 0;
+  padding: 28px 0;
+  border-top: 1px solid var(--wash, #ffffff1a);
+}
+
+.job:last-child {
+  padding-bottom: 0;
 }
 
 .job h2 {
