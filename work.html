@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work — Alen Aju</title>
+  <meta name="description" content="Work experience of Alen Aju.">
+  <meta name="author" content="Alen Aju">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.alenaju.site/work.html">
+  <meta name="theme-color" content="#222222">
+  <link rel="shortcut icon" href="./assets/images/my-avatar.ico" type="image/x-icon">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <main class="detail">
+    <h1><a href="./index.html">Alen Aju</a></h1>
+    <div class="limit">
+      <p class="page-label">Work</p>
+
+      <section class="job">
+        <h2>Software Engineer</h2>
+        <p class="job-meta">Right Intellectual · Dubai · Nov 2023 – Present</p>
+        <ul>
+          <li>Built a Redis and BullMQ background job pipeline with retries, exponential backoff, and dead-letter handling to recover failed jobs and make processing failures observable.</li>
+          <li>For real-time messaging, implemented a queue-backed service with connection pooling to handle concurrent connections without overloading backend resources.</li>
+          <li>The LMS mobile application was rebuilt with React Native and Expo, using isolated Zustand stores and React Query caching to reduce redundant network requests by approximately 70% and improve reliability on unstable connections.</li>
+          <li>To prevent duplicate scheduling operations, introduced TTL-based distributed locks and optimistic concurrency control, avoiding conflicting updates from concurrent requests.</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <h2>Freelance Fullstack Developer</h2>
+        <p class="job-meta">Mar 2023 – Oct 2023</p>
+        <ul>
+          <li>A schema-driven form engine was developed to support more than 15 field types, separating form configuration, validation, rendering, and submission into a reusable processing model.</li>
+          <li>After profiling React rendering behavior, isolated state updates and removed unnecessary component rerenders, particularly improving responsiveness on lower-powered devices.</li>
+          <li>API request volume fell by approximately 35% after introducing debounced updates and local persistence, improving usability on intermittent mobile connections.</li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <h2>Software Developer Intern</h2>
+        <p class="job-meta">MetaMorphoSys · India · Sep 2022 – Mar 2023</p>
+        <ul>
+          <li>Developed a product-configuration interface using Angular and RxJS, separating product rules from UI components to support complex configurations and future changes.</li>
+          <li>Repeated API requests were reduced through client-side caching and selective data fetching, lowering unnecessary backend processing.</li>
+          <li>Automated test coverage was expanded across critical UI workflows, helping identify regressions before release.</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
